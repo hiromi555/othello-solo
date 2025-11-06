@@ -1,6 +1,6 @@
 import { Cell } from './Cell'
 
-export const Board = ({othello, okCells, myTurn, size, active}) => {
+export const Board = ({othello, okCells, myTurn, size, active,onClickCell}) => {
 return (
    <>
     <div className='outline'>
@@ -15,6 +15,7 @@ return (
                        active={active}
                        okCells={okCells}
                        myTurn ={myTurn}
+                       onClickCell={onClickCell}
                    />
                 )}
             </div>

@@ -85,7 +85,7 @@ min-height: 36px;
 min-width: 36px;
 color: #222;
 border-radius: 4px;
-font-size: 0.8rem;
+font-weight:bold;
 box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
 }
 .button:hover{
@@ -103,7 +103,6 @@ font-size:1.25em;
  margin:1rem 0;
 }
 .button-wrap.-show{
-  font-size: 0.8rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
